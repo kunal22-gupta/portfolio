@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+/* Color : #536dfe */
+* {
+  padding: 0;
+  margin: 0;
+	scroll-behavior: smooth;
+	
+}
+body {
+	background-color: #c9cff6;
+}
+
+/* CSS for the Navigation section */
+
+nav {
+  height: 92px;
+  padding: 0px 150px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+	/* border: 1px solid black; */
+}
+nav div a{
+	font-size: 32px;
+  font-family: "Rock Salt", cursive;
+  color: black;
+  text-decoration: none;
+}
+nav #name {
+  display: flex;
+  align-items: center;
+	
+}
+nav ul {
+	width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+li.menu {
+	  font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100px;
+    height: 39px;
+}
+nav ul a {
+	text-decoration: none;
+	color: black;
+}
+li.menu:hover {
+	color: #536dfe;
+	border-bottom: 2px solid #536dfe;
+}
+
+/* CSS for the Introduction section */
+
+#Introduction {
+	margin: 10px;
+	display: flex;
+	/* border: 1px solid black; */
+}
+.introMessage {
+	padding: 72px 87px 0px 87px;
+	font-size: 30px;
+	
+}
+#bio {
+	font-size: 20px;
+	color: #4959a7;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+
+/* CSS for Skills section */
+
+#TechStack {
+	display: flex;
+	/* border: 1px solid black; */
+	margin: 120px 60px 35px 60px;
+	
+}
+#techstackContent {
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+#techstackContent ul {
+	list-style:none;
+	padding: 50px 0px;
+
+}
+#techstackContent ul li {
+	display: inline;
+	padding: 20px;
+}
+#techstackContent h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+/* CSS for Blog section */
+#Blog {
+	height: 515px;
+	margin: 10px 10px 50px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#Blog h1 {
+	text-align: center;
+	font-size: 60px;
+}
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+.box {
+	width: 300px;
+	height: 400px;
+	background-color: #f2f2f2;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.blogImage {
+	height: 200px;
+	width: 300px;
+	
+}
+.blogImage img {
+	width: 300px;
+	height: 200px;
+	border-radius: 10px 10px 0px 0px;
+}
+.blogContent {
+	width: 300px;
+	height: 200px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	box-sizing: border-box;
+}
+#more {
+	text-decoration: none;
+	color: black;
+}
+
+/*CSS for Contact section */
+
+#Contact {
+	display: flex;
+	margin: 10px 70px 10px 130px;
+}
+.contactContent {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 100px;
+}
+.heading {
+	margin: 32px;
+	font-size: 29px;
+}
+.icons {
+	margin: 0px 32px;
+}
+.icons a {
+	color: black;
+	text-decoration: none;
+	padding: 0px 1px;
+}
+.fa-brands {
+	  font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 48px;
+    padding: 15px;
+		transition: all .25s;
+}
+.fa-twitter{
+	color: white;
+	background-color: #5da9dd;
+	border: 2px solid #5da9dd;
+}
+.fa-linkedin-in {
+	background-color: #0a66c2;
+	border: 2px solid #0a66c2;
+	color: white;
+}
+.fa-instagram {
+	background-color: #d00156;
+	border: 2px solid #d00156;
+	color: white;
+}
+.fa-google {
+	background-color: #f04c3d;
+	border: 2px solid #f04c3d;
+	color: white;
+}
+.fa-github {
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+}
+.fa-twitter:hover{
+	color: #5da9dd;
+	background-color: #f2f2f2;
+	border: 2px solid #5da9dd; 
+}
+.fa-linkedin-in:hover {
+	color: #0a66c2;
+	background-color: #f2f2f2;
+	border: 2px solid #0a66c2;
+}
+.fa-instagram:hover {
+	color: #d00156;
+	background-color: #f2f2f2;
+	border: 2px solid #d00156;
+}
+.fa-google:hover {
+	color: #f04c3d;
+	background-color: #f2f2f2;
+	border: 2px solid #f04c3d;
+}
+.fa-github:hover {
+	color: black;
+	background-color: #f2f2f2;
+	border: 2px solid black;
+}
+
+/* CSS for footer */
+
+footer p {
+	font-size: 15px;
+	text-align: center;
+	margin: 10px;
+}
