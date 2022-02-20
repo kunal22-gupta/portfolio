@@ -78,9 +78,8 @@ li.menu:hover {
 
 #TechStack {
 	display: flex;
-	/* border: 1px solid black; */
-	margin: 120px 60px 35px 60px;
-	
+	justify-content: space-around;
+	margin: 120px 60px 35px 60px;	
 }
 #techstackContent {
 	display: flex;
@@ -145,9 +144,23 @@ li.menu:hover {
 	justify-content: flex-start;
 	box-sizing: border-box;
 }
-#more {
-	text-decoration: none;
-	color: black;
+.readButton {
+	align-self: end;
+}
+#readMore {
+	  width: 93px;
+    height: 29px;
+    border-radius: 14px;
+    background-color: #4b4bf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#readMore a {
+    text-decoration: none;
+    color: white;
+		font-weight: 500;
+    padding: 4px 8px;
 }
 
 /*CSS for Contact section */
@@ -238,4 +251,6 @@ footer p {
 	font-size: 15px;
 	text-align: center;
 	margin: 10px;
+	font-weight: 600;
+	color: #4959a7;
 }
