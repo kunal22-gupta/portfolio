@@ -81,30 +81,56 @@ li.menu:hover {
 .introMessage a {
 	font-size: 0px;
 }
-/* CSS for Skills section */
 
-#TechStack {
-	display: flex;
-	justify-content: space-around;
-	margin: 120px 60px 35px 60px;	
+/* CSS for Skills section */
+#Skills {
+	margin: 35px 0px;
+	background-color: #0b144b;
 }
-#techstackContent {
+.TechStack {
+	padding: 10px 0px;
 	display: flex;
 	flex-direction: column;
-	justify-content:flex-start;
 }
-#techstackContent ul {
-	list-style:none;
-	padding: 50px 0px;
-
+.TechStackContent {
+	margin: 30px;
+	display: flex;
+	justify-content: space-evenly;
 }
-#techstackContent ul li {
-	display: inline;
-	padding: 20px;
-}
-#techstackContent h1 {
-	font-size: 60px;
+.TechStack h1 {
+	font-size: 55px;
 	text-align: center;
+	color: #e6e6e6;
+	animation: anime 1.5s infinite;
+}
+@keyframes anime{
+	0%{
+		text-shadow: 0px 0px 5px #e6e6e6;
+	}
+	50%{
+		text-shadow: 0px 0px 10px #e6e6e6;
+	}
+	100%{
+		text-shadow: 0px 0px 5px #e6e6e6;
+	}
+}
+.stack .fa-brands {
+	font-size: 50px;
+}
+.stack .description ul li {
+  list-style: none;
+	line-height: 50px;
+	color: #b9beff;
+	font-size: 20px;
+}
+.languages {
+	padding: 30px 100px;
+}
+.languages svg {
+	padding: 0px 5px;
+}
+.description {
+	padding: 0px 80px;
 }
 
 /* CSS for Blog section */
@@ -193,7 +219,7 @@ li.menu:hover {
 	text-decoration: none;
 	padding: 0px 1px;
 }
-.fa-brands {
+.contactContent .icons .fa-brands {
 	  font-family: "Font Awesome 6 Brands";
     font-weight: 400;
     font-size: 20px;
