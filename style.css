@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 /* Color : #536dfe */
 * {
   padding: 0;
@@ -7,8 +8,8 @@
 
 }
 *::selection{
-background-color: #f2f2f2;
-color: white;
+background-color: #536dfe;
+color: #c9cff6;
 }
 body {
 	background-color: #c9cff6;
@@ -23,16 +24,15 @@ nav {
   justify-content: space-between;
 	/* border: 1px solid black; */
 }
-nav div a{
-	font-size: 32px;
-  font-family: "Rock Salt", cursive;
-  color: black;
+nav #name a{
+	font-size: 54px;
   text-decoration: none;
+  color: #232d66;
+	font-family: 'Italianno', cursive;
 }
 nav #name {
   display: flex;
-  align-items: center;
-	
+  align-items: center;	
 }
 nav ul {
 	width: 400px;
@@ -47,15 +47,17 @@ li.menu {
     font-weight: 600;
     cursor: pointer;
     width: 100px;
-    height: 39px;
-}
+    height: 39px;	
+		transition: transform .25s ease-out ;
+	}
 nav ul a {
 	text-decoration: none;
-	color: black;
+	color: #232d66;
 }
 li.menu:hover {
-	color: #536dfe;
-	border-bottom: 2px solid #536dfe;
+	transform: translateY(-7px);
+	color: #021cad;
+	border-bottom: 2px solid #021cad;
 }
 
 /* CSS for the Introduction section */
@@ -66,18 +68,19 @@ li.menu:hover {
 	/* border: 1px solid black; */
 }
 .introMessage {
-	padding: 72px 87px 0px 87px;
+	padding: 72px 42px 0px 87px;
 	font-size: 30px;
 	
 }
 #bio {
 	font-size: 20px;
 	color: #4959a7;
-	font-weight: 500;
-	line-height: 32px;
+	font-weight: 600;
+	line-height: 36px;
 }
-
-
+.introMessage a {
+	font-size: 0px;
+}
 /* CSS for Skills section */
 
 #TechStack {
