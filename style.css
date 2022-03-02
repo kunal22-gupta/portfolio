@@ -132,6 +132,13 @@ li.menu:hover {
 .description {
 	padding: 0px 80px;
 }
+.languages svg title {
+	background-color: #0a66c2;
+	color: white;
+	font-weight: 500;
+	border-radius: 32px;
+	border: 2px solid blue;
+}
 
 /* CSS for Blog section */
 #Blog {
