@@ -12,7 +12,7 @@ background-color: #536dfe;
 color: #c9cff6;
 }
 body {
-	background-color: #909fff;
+	background-color: #e6e6e6;
 }
 
 /* CSS for the Navigation section */
@@ -22,12 +22,13 @@ nav {
   padding: 0px 150px 0px 80px;
   display: flex;
   justify-content: space-between;
-	/* border: 1px solid black; */
+	background-color: #ffffff4a;
+    box-shadow: 0px -2px 6px #0b144b;
 }
 nav #name a{
 	font-size: 54px;
   text-decoration: none;
-  color: #232d66;
+	color: #0b144b;
 	font-family: 'Italianno', cursive;
 }
 nav #name {
@@ -65,7 +66,6 @@ li.menu:hover {
 #Introduction {
 	margin: 10px;
 	display: flex;
-	/* border: 1px solid black; */
 }
 .introMessage {
 	padding: 72px 42px 0px 87px;
@@ -84,7 +84,7 @@ li.menu:hover {
 
 /* CSS for Skills section */
 #Skills {
-	margin: 35px 0px;
+	margin-top: 35px;
 	background-color: #0b144b;
 }
 .TechStack {
@@ -132,75 +132,35 @@ li.menu:hover {
 .description {
 	padding: 0px 80px;
 }
-.languages svg title {
-	background-color: #0a66c2;
-	color: white;
-	font-weight: 500;
-	border-radius: 32px;
-	border: 2px solid blue;
-}
+
 
 /* CSS for Blog section */
+
 #Blog {
-	height: 515px;
-	margin: 10px 10px 50px 10px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	    background-color: #e6e6e6;
+    padding: 30px 0px;
 }
-#Blog h1 {
+#Blog .container .heading {
 	text-align: center;
-	font-size: 60px;
+	font-size: 64px;
+	color: #232d66;
 }
-.container {
+.blog {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	padding: 40px 30px;
 }
-.box {
-	width: 300px;
-	height: 400px;
-	background-color: #f2f2f2;
-	border: 1px solid black;
+.box a img {
+	width: 390px;
 	border-radius: 10px;
-	display: flex;
-	flex-direction: column;
+	box-shadow: -2px 2px 10px #0b144b;
 }
-.blogImage {
-	height: 200px;
-	width: 300px;
-	
+.box a {
+	font-size: 0px;
+	text-decoration: none;
 }
-.blogImage img {
-	width: 300px;
-	height: 200px;
-	border-radius: 10px 10px 0px 0px;
-}
-.blogContent {
-	width: 300px;
-	height: 200px;
-	padding: 25px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	box-sizing: border-box;
-}
-.readButton {
-	align-self: end;
-}
-#readMore {
-	  width: 93px;
-    height: 29px;
-    border-radius: 14px;
-    background-color: #4b4bf3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#readMore a {
-    text-decoration: none;
-    color: white;
-		font-weight: 500;
-    padding: 4px 8px;
+.box a img:hover{
+	filter
 }
 
 /*CSS for Contact section */
@@ -214,7 +174,7 @@ li.menu:hover {
 	flex-direction: column;
 	padding: 0px 100px;
 }
-.heading {
+.contactContent .heading {
 	margin: 32px;
 	font-size: 29px;
 }
