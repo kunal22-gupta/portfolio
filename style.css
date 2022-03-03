@@ -151,17 +151,20 @@ li.menu:hover {
 	padding: 40px 30px;
 }
 .box a img {
-	width: 390px;
+	width: 370px;
 	border-radius: 10px;
 	box-shadow: -2px 2px 10px #0b144b;
+	transition: all .25s;
+}
+.box a img:hover {
+	transform: scale(1.1);
 }
 .box a {
 	font-size: 0px;
 	text-decoration: none;
 }
-.box a img:hover{
-	filter
-}
+
+
 
 /*CSS for Contact section */
 
@@ -250,7 +253,13 @@ li.menu:hover {
 footer p {
 	font-size: 15px;
 	text-align: center;
-	margin: 10px;
-	font-weight: 600;
-	color: #4959a7;
+	font-weight: 700;
+	color: #b9beff;
+}
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 32px;
+	background-color: #0b144b;
 }
