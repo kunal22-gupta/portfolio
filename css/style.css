@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+/* Color : #536dfe */
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+*::selection {
+  background-color: #536dfe;
+  color: #c9cff6;
+}
+body {
+  background-color: #e6e6e6;
+}
+
+/* CSS for the Navigation section */
+
+nav {
+  height: 92px;
+  padding: 0px 150px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff4a;
+  box-shadow: 0px -2px 6px #0b144b;
+}
+nav #name a {
+  font-size: 54px;
+  text-decoration: none;
+  color: #0b144b;
+  font-family: "Italianno", cursive;
+}
+nav #name {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li.menu {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100px;
+  height: 39px;
+  transition: transform 0.25s ease-out;
+}
+nav ul a {
+  text-decoration: none;
+  color: #232d66;
+}
+li.menu:hover {
+  transform: translateY(-7px);
+  color: #021cad;
+  border-bottom: 2px solid #021cad;
+}
+
+/* CSS for the Introduction section */
+
+#Introduction {
+  margin: 10px;
+  display: flex;
+}
+.introMessage {
+  padding: 72px 42px 0px 87px;
+  font-size: 30px;
+}
+#bio {
+  font-size: 20px;
+  color: #4959a7;
+  font-weight: 600;
+  line-height: 36px;
+}
+.introMessage a {
+  font-size: 0px;
+}
+.introMessage a img {
+  width: 155px;
+  height: 44px;
+	transition: all .05s ease-out;
+}
+.introMessage a img:hover {
+  width: 155px;
+  height: 44px;
+	transform: scale(1.05);
+}
+
+/* CSS for Skills section */
+#Skills {
+  margin-top: 35px;
+  background-color: #0b144b;
+}
+.TechStack {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.TechStackContent {
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.TechStack h1 {
+  font-size: 55px;
+  text-align: center;
+  color: #e6e6e6;
+  animation: anime 1.5s infinite;
+}
+@keyframes anime {
+  0% {
+    text-shadow: 0px 0px 5px #e6e6e6;
+  }
+  50% {
+    text-shadow: 0px 0px 10px #e6e6e6;
+  }
+  100% {
+    text-shadow: 0px 0px 5px #e6e6e6;
+  }
+}
+.stack .fa-brands {
+  font-size: 50px;
+}
+.stack .description ul li {
+  list-style: none;
+  line-height: 50px;
+  color: #b9beff;
+  font-size: 20px;
+}
+.languages {
+  padding: 30px 100px;
+}
+.languages svg {
+  padding: 0px 5px;
+}
+.description {
+  padding: 0px 80px;
+}
+
+/* CSS for Blog section */
+
+#Blog {
+  background-color: #e6e6e6;
+  padding: 30px 0px;
+}
+#Blog .container .heading {
+  text-align: center;
+  font-size: 64px;
+  color: #232d66;
+}
+.blog {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 30px;
+}
+.box a img {
+  width: 370px;
+  border-radius: 10px;
+  box-shadow: -2px 2px 10px #0b144b;
+  transition: all 0.25s;
+}
+.box a img:hover {
+  transform: scale(1.1);
+}
+.box a {
+  font-size: 0px;
+  text-decoration: none;
+}
+/*CSS for Contact section */
+
+#Contact {
+  display: flex;
+  margin: 10px 70px 10px 130px;
+}
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px;
+}
+.contactContent .heading {
+  margin: 32px;
+  font-size: 29px;
+}
+.icons {
+  margin: 0px 32px;
+}
+.icons a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 5px;
+}
+.contactContent .icons .fa-brands {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 48px;
+  padding: 15px;
+  transition: all 0.25s;
+}
+.fa-twitter {
+  color: white;
+  background-color: #5da9dd;
+  border: 2px solid #5da9dd;
+}
+.fa-linkedin-in {
+  background-color: #0a66c2;
+  border: 2px solid #0a66c2;
+  color: white;
+}
+.fa-instagram {
+  background-color: #d00156;
+  border: 2px solid #d00156;
+  color: white;
+}
+.fa-google {
+  background-color: #f04c3d;
+  border: 2px solid #f04c3d;
+  color: white;
+}
+.fa-github {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+.fa-twitter:hover {
+  color: #5da9dd;
+  background-color: #f2f2f2;
+  border: 2px solid #5da9dd;
+}
+.fa-linkedin-in:hover {
+  color: #0a66c2;
+  background-color: #f2f2f2;
+  border: 2px solid #0a66c2;
+}
+.fa-instagram:hover {
+  color: #d00156;
+  background-color: #f2f2f2;
+  border: 2px solid #d00156;
+}
+.fa-google:hover {
+  color: #f04c3d;
+  background-color: #f2f2f2;
+  border: 2px solid #f04c3d;
+}
+.fa-github:hover {
+  color: black;
+  background-color: #f2f2f2;
+  border: 2px solid black;
+}
+
+/* CSS for footer */
+
+footer p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  color: #b9beff;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  background-color: #0b144b;
+}
