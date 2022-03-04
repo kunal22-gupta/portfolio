@@ -17,7 +17,7 @@ body {
 /* CSS for the Navigation section */
 
 nav {
-  height: 92px;
+  height: 14vh;
   padding: 0px 110px 0px 60px;
   display: flex;
   justify-content: space-between;
@@ -63,13 +63,16 @@ li.menu:hover {
 /* CSS for the Introduction section */
 
 #Introduction {
-	height: calc(100vh - 92px);
+	height: calc(100vh - 14vh);
   padding: 10px;
   display: flex;
 }
 .introMessage {
   padding: 72px 42px 0px 87px;
   font-size: 30px;
+}
+.introImage {
+	display: flex;
 }
 #bio {
   font-size: 20px;
@@ -257,7 +260,8 @@ li.menu:hover {
 /* CSS for footer */
 
 footer p {
-  font-size: 15px;
+	
+  font-size: 12px;
   text-align: center;
   font-weight: 700;
   color: #b9beff;
@@ -266,6 +270,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 32px;
+  height: 4vh;
   background-color: #0b144b;
 }
