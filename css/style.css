@@ -18,7 +18,7 @@ body {
 
 nav {
   height: 92px;
-  padding: 0px 150px 0px 80px;
+  padding: 0px 110px 0px 60px;
   display: flex;
   justify-content: space-between;
   background-color: #ffffff4a;
@@ -96,12 +96,12 @@ li.menu:hover {
   background-color: #0b144b;
 }
 .TechStack {
-  padding: 10px 0px;
+  padding: 15px 0px;
   display: flex;
   flex-direction: column;
 }
 .TechStackContent {
-  margin: 30px;
+  margin: 30px 60px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -132,13 +132,13 @@ li.menu:hover {
   font-size: 20px;
 }
 .languages {
-  padding: 30px 100px;
+  padding: 30px 0px 30px 120px;
 }
 .languages svg {
   padding: 0px 5px;
 }
 .description {
-  padding: 0px 80px;
+  padding: 0px 90px;
 }
 
 /* CSS for Blog section */
