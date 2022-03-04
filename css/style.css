@@ -63,7 +63,8 @@ li.menu:hover {
 /* CSS for the Introduction section */
 
 #Introduction {
-  margin: 10px;
+	height: calc(100vh - 92px);
+  padding: 10px;
   display: flex;
 }
 .introMessage {
