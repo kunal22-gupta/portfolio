@@ -1,13 +1,14 @@
+
 @media screen and (max-width: 1024px) {
-	nav {
-		padding: 0px 35px 0px 40px;
-	}
-	nav #name a {
-		font-size: 46px;
-	}
-	#Introduction {
+  nav {
+    padding: 0px 35px 0px 40px;
+  }
+  nav #name a {
+    font-size: 46px;
+  }
+  #Introduction {
     height: calc(100vh - 22vh);
-	}
+  }
   .introMessage {
     font-size: 20px;
   }
@@ -20,7 +21,7 @@
     height: 34px;
   }
   #Skills {
-    height: 52vw;
+    height: fit-content;
   }
   .TechStack h1 {
     font-size: 45px;
@@ -48,3 +49,99 @@
     padding: 0px;
   }
 }
+
+@media screen and (max-width: 730px) {
+  nav {
+    height: 100px;
+    justify-content: space-evenly;
+  }
+  #Introduction {
+    display: block;
+    height: fit-content;
+  }
+  .introMessage {
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+  }
+  .introImage {
+    justify-content: center;
+  }
+  .introImage img {
+    width: 86vw;
+  }
+  .TechStack h1 {
+    font-size: 32px;
+  }
+  .TechStackContent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .TechStackContent .image {
+    display: flex;
+    justify-content: center;
+  }
+  .TechStackContent .image img {
+    width: 55vw;
+  }
+  .stack .languages {
+    display: flex;
+    justify-content: center;
+  }
+  .stack .description ul li {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .languages {
+    padding: 4vh 3vw 4vh 3vw;
+  }
+  .description {
+    padding: 0px 6vw 2vh 6vw;
+  }
+  #Contact {
+    display: block;
+  }
+  .contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px;
+  }
+  .contactContent .heading {
+    margin: 12px;
+    font-size: 20px;
+  }
+  .icons {
+    margin: 10px 32px;
+  }
+  .contactImage {
+    display: flex;
+    justify-content: center;
+  }
+  .contactImage img {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  nav #name a {
+    font-size: 40px;
+}
+li.menu {
+  font-size: 3vw;
+  width: 22vw;
+}
+footer p {
+    font-size: 1.5vh;
+}
+#Blog {
+  padding-top: 3vh;
+  padding-bottom: 0px;
+}
+.box a img {
+    width: 70vw;
+}
+.contactContent .heading {
+    font-size: 20px;
+}
+}
+
