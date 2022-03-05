@@ -18,8 +18,9 @@ body {
 
 nav {
   height: 14vh;
-  padding: 0px 110px 0px 60px;
+  padding: 0px 8vw 0px 4vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #ffffff4a;
   box-shadow: 0px -2px 6px #0b144b;
@@ -44,11 +45,11 @@ nav ul {
 li.menu {
   font-size: 16px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   width: 100px;
   height: 39px;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.3s ease-out;
 }
 nav ul a {
   text-decoration: none;
@@ -68,12 +69,12 @@ li.menu:hover {
   display: flex;
 }
 .introMessage {
-  padding: 72px 42px 0px 87px;
-  font-size: 30px;
+     padding: 12vh 3vw 0vw 6vw;
+     font-size: 2.25vw;
 }
 
 #bio {
-  font-size: 20px;
+  font-size: 1.4vw;
   color: #4959a7;
   font-weight: 600;
   line-height: 36px;
@@ -82,8 +83,8 @@ li.menu:hover {
   font-size: 0px;
 }
 .introMessage a img {
-  width: 155px;
-  height: 44px;
+  width: 11vw;
+  height: 7vh;
 	transition: all .05s ease-out;
 }
 .introMessage a img:hover {
@@ -94,25 +95,28 @@ li.menu:hover {
 .introImage {
 	display: flex;
 }
+.introImage img {
+  width: 50vw;
+}
 
 /* CSS for Skills section */
 #Skills {
 	height: 100vh;
-  margin-top: 35px;
+  margin-top: 5vh;
   background-color: #0b144b;
 }
 .TechStack {
-  padding: 15px 0px;
+  padding: 1.55vh 0px;
   display: flex;
   flex-direction: column;
 }
 .TechStackContent {
-  margin: 30px 60px;
+  margin: 4.35vh 4vw;
   display: flex;
   justify-content: space-evenly;
 }
 .TechStack h1 {
-  font-size: 55px;
+  font-size: 4vw;
   text-align: center;
   color: #e6e6e6;
   animation: anime 1.5s infinite;
@@ -128,43 +132,47 @@ li.menu:hover {
     text-shadow: 0px 0px 5px #e6e6e6;
   }
 }
+.TechStackContent .image img {
+  width: calc(100vh - 9vw);
+}
 .stack .fa-brands {
   font-size: 50px;
 }
 .stack .description ul li {
   list-style: none;
-  line-height: 50px;
+  line-height: 6vh;
   color: #b9beff;
-  font-size: 20px;
+  font-size: 1.4vw;
 }
 .languages {
-  padding: 30px 0px 30px 120px;
+  padding: 5vh 0px 5vh 8vw;
 }
 .languages svg {
   padding: 0px 5px;
 }
 .description {
-  padding: 0px 90px;
+  padding: 0px 6vw;
 }
 
 /* CSS for Blog section */
 
 #Blog {
   background-color: #e6e6e6;
-  padding: 30px 0px;
+  padding: 5vh 0px;
 }
 #Blog .container .heading {
   text-align: center;
-  font-size: 64px;
+  font-size: 4vw;
   color: #232d66;
 }
 .blog {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 40px 30px;
+  padding: 5vh 2vw;
 }
 .box a img {
-  width: 370px;
+  width: 30vw;
   border-radius: 10px;
   box-shadow: -2px 2px 10px #0b144b;
   transition: all 0.25s;
@@ -180,14 +188,15 @@ li.menu:hover {
 
 #Contact {
   display: flex;
-  margin: 10px 70px 10px 130px;
+  justify-content: space-evenly;
+ margin: 2vh 1vw;
 }
 .contactContent {
-  padding: 0px 100px;
+  padding: 0px 7vw;
 }
 .contactContent .heading {
   margin: 32px;
-  font-size: 29px;
+  font-size: 2.5vw;
 }
 .icons {
   margin: 0px 32px;
@@ -200,9 +209,9 @@ li.menu:hover {
 .contactContent .icons .fa-brands {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 48px;
-  padding: 15px;
+  padding: 1vw;
   transition: all 0.25s;
 }
 .fa-twitter {
@@ -254,6 +263,9 @@ li.menu:hover {
   color: black;
   background-color: #f2f2f2;
   border: 2px solid black;
+}
+.contactImage {
+  width: 34vw;
 }
 
 /* CSS for footer */
