@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: sans-serif;
+  font-family: 'Segoe UI',sans-serif;
 }
 *::selection {
   background-color: #536dfe;
