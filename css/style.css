@@ -183,9 +183,6 @@ li.menu:hover {
   margin: 10px 70px 10px 130px;
 }
 .contactContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 0px 100px;
 }
 .contactContent .heading {
