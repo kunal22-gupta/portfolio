@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px) {
+	nav {
+		padding: 0px 35px 0px 40px;
+	}
+	nav #name a {
+		font-size: 46px;
+	}
+	#Introduction {
+    height: calc(100vh - 22vh);
+	}
+  .introMessage {
+    font-size: 20px;
+  }
+  #bio {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .introMessage a img {
+    width: 110px;
+    height: 34px;
+  }
+  #Skills {
+    height: 52vw;
+  }
+  .TechStack h1 {
+    font-size: 45px;
+  }
+  .TechStackContent .image img {
+    width: 38vw;
+  }
+  .stack .description ul li {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  #Blog .container .heading {
+    font-size: 40px;
+  }
+  .box {
+    padding: 10px;
+  }
+  .box a img {
+    width: 280px;
+  }
+  .contactImage img {
+    width: 340px;
+  }
+  .contactContent {
+    padding: 0px;
+  }
+}

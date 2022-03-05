@@ -45,7 +45,7 @@ nav ul {
 li.menu {
   font-size: 16px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   width: 100px;
   height: 39px;
@@ -58,6 +58,7 @@ nav ul a {
 li.menu:hover {
   transform: translateY(-7px);
   color: #021cad;
+  font-weight: 500;
   border-bottom: 2px solid #021cad;
 }
 
@@ -264,7 +265,7 @@ li.menu:hover {
   background-color: #f2f2f2;
   border: 2px solid black;
 }
-.contactImage {
+.contactImage img {
   width: 34vw;
 }
 
