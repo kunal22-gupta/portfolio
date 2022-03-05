@@ -71,9 +71,7 @@ li.menu:hover {
   padding: 72px 42px 0px 87px;
   font-size: 30px;
 }
-.introImage {
-	display: flex;
-}
+
 #bio {
   font-size: 20px;
   color: #4959a7;
@@ -93,9 +91,13 @@ li.menu:hover {
   height: 44px;
 	transform: scale(1.05);
 }
+.introImage {
+	display: flex;
+}
 
 /* CSS for Skills section */
 #Skills {
+	height: 100vh;
   margin-top: 35px;
   background-color: #0b144b;
 }

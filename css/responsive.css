@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+	nav {
+		padding: 0px 50px 0px 60px;
+	}
+	nav #name a {
+    font-size: 50px;
+	}
+	li.menu {
+    font-size: 14px;
+	}
+	.introMessage {
+    padding: 60px 30px 5px 70px;
+    font-size: 24px;
+}
+#bio {
+	font-size: 15px;
+	line-height: 32px;
+}
+	.introImage img {
+		width: 529px;
+	}
+	#Blog .container .heading {
+		font-size: 56px;
+	}
+	.box a img {
+		width: 300px;
+	}
+	
+}
