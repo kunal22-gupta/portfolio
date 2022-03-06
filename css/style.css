@@ -174,13 +174,13 @@ li.menu:hover {
   padding: 5vh 2vw;
 }
 .box a img {
-  width: 30vw;
+  width: 28vw;
   border-radius: 10px;
   box-shadow: -2px 2px 10px #0b144b;
   transition: all 0.25s;
 }
 .box a img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .box a {
   font-size: 0px;
